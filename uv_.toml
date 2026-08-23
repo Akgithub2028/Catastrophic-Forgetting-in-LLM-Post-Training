@@ -1,0 +1,17 @@
+# pip install uv
+# git clone https://github.com/Akgithub2028/nano-llm-posttraining.git
+# cd nano-llm-posttraining
+# mkdir -p ~/.config/uv && cp uv_.toml ~/.config/uv/uv.toml
+# export HF_ENDPOINT=https://hf-mirror.com
+
+# 1) Python interpreter via GitHub proxy
+python-install-mirror = "https://gh-proxy.com/https://github.com/astral-sh/python-build-standalone/releases/download"
+
+# 2) PyPI packages via Tsinghua mirror
+[[index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[[index]]
+name = "pytorch-cu128"
+url = "https://mirror.sjtu.edu.cn/pytorch-wheels/cu128"
