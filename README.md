@@ -1,8 +1,6 @@
 <div align="center">
 
 
-⭐ **If this repo helps you, please consider giving it a star!** ⭐
-
 </div>
 
 # Minimal LLM Post-Training on an 8GB GPU: Understanding KL, SFT, DPO, GRPO and DeepSeek-Style Reasoning with Open-Source Frameworks
