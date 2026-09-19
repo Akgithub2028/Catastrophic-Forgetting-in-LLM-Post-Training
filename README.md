@@ -370,7 +370,7 @@ KL (drift on the task) and PPL (degradation of general capability) are **two dif
 
 ---
 
-## Aha Moment: GRPO Strengthens Self-Verification and Search into a Stable Strategy
+## GRPO Strengthens Self-Verification and Search into a Stable Strategy
 
 **RL doesn't just make a model "forget less" — on the right task and scale, it can also strengthen the model's intrinsic reasoning behavior. The famous aha moment during DeepSeek-R1 training is the model learning to self-correct. This section reproduces the phenomenon at extremely low cost; it also shows an honest boundary: we use an Instruct model, so what we see is "amplification," not true "emergence."**
 
